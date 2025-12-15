@@ -9,16 +9,8 @@ This guide explains how to set up and run the project step by step.
 First, clone the project from GitHub using the repository link:
 
 ```bash
-git clone <github-repository-url>
+git clone https://github.com/nithishkumar86/Application_tracking_system.git
 ```
-
-Move into the project directory:
-
-```bash
-cd <project-folder-name>
-```
-
----
 
 ## Step 2: Initialize Project and Create Virtual Environment
 
@@ -79,3 +71,4 @@ uv run python connector.py
 * If you face issues, re-check the requirements file.
 
 ---
+
