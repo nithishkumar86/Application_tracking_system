@@ -1,0 +1,41 @@
+Lesson: Always check the type and structure of objects returned by libraries. Use type(), dir(), and print() to explore
+
+
+Lesson: Always inspect the actual API response structure first. Use print() or st.write() to see what you're receiving.
+
+Lesson: Always check data types before operations. json.loads() only works on strings, not dicts.
+
+Lesson: Always handle edge cases (None, empty, missing data) with safe defaults.
+
+Key Takeaways for Your Next Project:
+
+Debug First, Code Second:
+
+# Always start with this
+   print("Type:", type(variable))
+   print("Value:", variable)
+   print("Attributes:", dir(variable))
+
+Use Type Checking:
+
+if isinstance(data, str):
+       # handle string
+   elif isinstance(data, dict):
+       # handle dict
+
+
+Use Safe Access Methods:
+
+# GOOD - provides default if missing
+   value = data.get("key", default_value)
+   
+   # BAD - crashes if key missing
+   value = data["key"]
+
+Handle Errors Gracefully:
+
+try:
+       # risky operation
+   except Exception as e:
+       print(f"Error: {e}")
+       # provide fallback

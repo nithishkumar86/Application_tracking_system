@@ -1,0 +1,11 @@
+model:
+  provider: "groq"
+  name: "llama-3.3-70b-versatile"
+  temperature: 0.5
+  max_tokens: 
+  
+model1:
+  provider: "gemini"
+  name: "gemini-2.5-flash"
+  temperature: 0.5
+
