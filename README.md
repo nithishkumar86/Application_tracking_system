@@ -65,10 +65,11 @@ uv run python connector.py
 ---
 
 ## Notes
-
+*please Ensure set up the **.env** file with your groq api key like GROQ_API_KEY ="<your_api_key>"
 * Ensure **Python** and **uv** are installed before starting.
 * Always activate the virtual environment before running the project.
 * If you face issues, re-check the requirements file.
 
 ---
+
 
